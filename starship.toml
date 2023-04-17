@@ -81,9 +81,11 @@ $battery\
 $time\
 $status\
 $os\
-$container\
 $shell"""
-format = '$character'
+
+format = """
+$container\
+$character"""
 
 [time]
 disabled = false
